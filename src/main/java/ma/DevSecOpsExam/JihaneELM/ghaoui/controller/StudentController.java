@@ -39,7 +39,7 @@ public class StudentController {
         return studentService.updateStudent(id, student);
     }
 
-    // Delete a student by ID
+    // Delete a student by Id
     @DeleteMapping("/{id}")
     public void deleteStudent(@PathVariable Long id) {
         studentService.deleteStudent(id);

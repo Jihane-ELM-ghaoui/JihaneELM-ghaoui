@@ -23,4 +23,19 @@ public class Student {
     private String address;
     private String major;
     private String level;
+
+    public Student() {
+    }
+
+    public Student(long id, String firstName, String lastName, Date birthday, String email, String phone, String address, String major, String level) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthday = birthday;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
+        this.major = major;
+        this.level = level;
+    }
 }
